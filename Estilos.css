@@ -1,0 +1,27 @@
+/* Estilos del contenedor de la lista */
+ul.menu {
+  list-style-type: none; /* Quita las viñetas */
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Fondo para el menú */
+}
+
+/* Estilos para los elementos de lista (convertirlos a horizontal) */
+ul.menu li {
+  /* Hace que los elementos floten a la izquierda, poniéndolos uno al lado del otro */
+  display: inline-block;
+}
+
+/* Estilos para los enlaces dentro de los elementos */
+ul.menu li a {
+  display: block; /* Hace que el enlace ocupe todo el espacio del <li> */
+  padding: 14px 16px;
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: white;
+  text-align: center;
+}
+
+/* Estilo al pasar el ratón */
+ul.menu li a:hover {
+  background-color: #555;
+}
